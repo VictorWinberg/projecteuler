@@ -1,3 +1,3 @@
 # projecteuler
 
-![Profile](https://projecteuler.net/profile/VictorWinberg.png)
+![Profile](https://projecteuler.net/profile/VictorWinberg.png?)
