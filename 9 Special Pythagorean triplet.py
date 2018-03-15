@@ -8,6 +8,7 @@ from math import sqrt, ceil
 # Hence:
 #  a < 500 * (2 - sqrt(2)),
 #  b = (1000 * (a - 500)) / (a - 1000)
+#  c = sqrt(a ** 2 + b ** 2)
 
 for a in range(1, ceil(500 * (2 - sqrt(2)))):
     b = int((1000 * (a - 500)) / (a - 1000))
