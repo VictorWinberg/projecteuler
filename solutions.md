@@ -2,16 +2,16 @@
 
 ### Table of Contents
 
-1. [001 Multiples of 3 and 5.py](#001-Multiples-of-3-and-5.py)
-2. [002 Even Fibonacci numbers.py](#002-Even-Fibonacci-numbers.py)
-3. [003 Largest prime factor.py](#003-Largest-prime-factor.py)
-4. [004 Largest palindrome product.py](#004-Largest-palindrome-product.py)
-5. [005 Smallest multiple.py](#005-Smallest-multiple.py)
-6. [006 Sum square difference.py](#006-Sum-square-difference.py)
-7. [007 10001st prime.py](#007-10001st-prime.py)
-8. [008 Largest product in a series.py](#008-Largest-product-in-a-series.py)
-9. [009 Special Pythagorean triplet.py](#009-Special-Pythagorean-triplet.py)
-10. [010 Summation of primes.py](#010-Summation-of-primes.py)
+1. [Multiples of 3 and 5](#001-multiples-of-3-and-5)
+2. [Even Fibonacci numbers](#002-even-fibonacci-numbers)
+3. [Largest prime factor](#003-largest-prime-factor)
+4. [Largest palindrome product](#004-largest-palindrome-product)
+5. [Smallest multiple](#005-smallest-multiple)
+6. [Sum square difference](#006-sum-square-difference)
+7. [10001st prime](#007-10001st-prime)
+8. [Largest product in a series](#008-largest-product-in-a-series)
+9. [Special Pythagorean triplet](#009-special-pythagorean-triplet)
+10. [Summation of primes](#010-summation-of-primes)
 
 ## Contents
 
@@ -20,7 +20,7 @@
 print(sum([i for i in range(1000) if(i % 3 == 0 or i % 5 == 0)]))
 
 ```
-Time: `~ 60 ms`.
+Time: `~ 80 ms`.
 
 ### 002 Even Fibonacci numbers
 ```python
@@ -32,7 +32,7 @@ def even_fibonacci(a, b, n, total = 0):
 print(even_fibonacci(1, 2, 4000000))
 
 ```
-Time: `~ 50 ms`.
+Time: `~ 70 ms`.
 
 ### 003 Largest prime factor
 ```python
@@ -46,7 +46,7 @@ def find_primes(n, i = 1, primes = []):
 print(max(find_primes(600851475143)))
 
 ```
-Time: `~ 50 ms`.
+Time: `~ 60 ms`.
 
 ### 004 Largest palindrome product
 ```python
@@ -63,7 +63,7 @@ for a in range(100, 1000):
 print(max(palindromes))
 
 ```
-Time: `~ 800 ms`.
+Time: `~ 900 ms`.
 
 ### 005 Smallest multiple
 ```python
@@ -90,7 +90,7 @@ while i < n:
 
 print(mul(primes))
 ```
-Time: `~ 60 ms`.
+Time: `~ 50 ms`.
 
 ### 006 Sum square difference
 ```python
@@ -126,7 +126,7 @@ while len(primes) < n:
 
 print(primes[-1])
 ```
-Time: `~ 400 ms`.
+Time: `~ 500 ms`.
 
 ### 008 Largest product in a series
 ```python
@@ -166,7 +166,7 @@ for a in range(1, ceil((n / 2) * (2 - sqrt(2)))):
         print(a * b * c)
 
 ```
-Time: `~ 60 ms`.
+Time: `~ 50 ms`.
 
 ### 010 Summation of primes
 ```python
@@ -185,4 +185,4 @@ while i < n:
 
 print(sum(primes))
 ```
-Time: `~ 4 s`.
+Time: `~ 5 s`.

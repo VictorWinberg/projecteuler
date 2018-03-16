@@ -23,7 +23,7 @@ folder = "problems/"
 
 for fname in sorted(os.listdir(folder)):
     content.append("\n### {}".format(fname[:-3]))
-    TOC.append("{}. [{}](#{})".format(len(TOC), fname, fname.replace(" ", "-")))
+    TOC.append("{}. [{}](#{})".format(len(TOC), fname[4:-3], fname[:-3].replace(" ", "-").lower()))
     with open(folder + fname) as f:
         content.append("```python")
         content.append(f.read())
